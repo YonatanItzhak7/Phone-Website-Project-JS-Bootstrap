@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin:0%;
+}
+
+body{
+    gap:2%;
+}
+#div_split{
+    width:100%;
+    height:1%;
+    border: 1px solid rgba(0, 4, 255,0.2);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card-img-top{
+    height: 50vh !important;
+}
+.main_header{
+display: flex;
+justify-content: center;
+}
+
+#h1_id{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.navbar-collapse{
+    margin-left: 19vw;
+    font-size:2.5vw;
+}
+
+#a_id{
+    border-right: 1px solid black;
+}
+
+#card-body{
+    color:blue;
+}
+
+#main_h1{
+    display:flex;
+    justify-content: center;
+}
+
+
+#users_Table{
+    margin:2%;
+}
+
+/* .splitscreen{
+    display:flex;
+}
+
+#splittext{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 40%;
+    padding:2%;
+}
+
+#splitvideo{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    width:60%;
+    padding:2%;
+}
+
+
+@media screen and (max-width:600px) {
+    .splitscreen{
+        display:flex;
+        flex-direction:column!important;
+    }
+
+    #splittext{
+        align-items:center;
+        width: 100%;
+    }
+
+    #splitvideo{
+        justify-content: center;
+        width:100%;
+
+    }
+    
+} */
